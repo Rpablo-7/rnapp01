@@ -1,14 +1,13 @@
 import React from 'react';
 // import { StyleSheet, View, Text } from 'react-native'; não estamos usando essa importação
-import { Image } from 'react-native';
 import styled from 'styled-components/native';
 
 const Header = styled.View`
   flex-direction: row;
+  justify-content: center;
   background-color: #DDD;
   height: 200px;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: flex-start;
 `;
 
 // criando um componente View
@@ -28,14 +27,6 @@ export default function App() {
   return (
     <Pagina>
       <Header>
-        <Quadrado cor="red"></Quadrado>
-        <Quadrado cor="green"></Quadrado>
-        <Quadrado cor="blue"></Quadrado>
-        <Quadrado cor="yellow"></Quadrado>
-        <Quadrado cor="red"></Quadrado>
-        <Quadrado cor="green"></Quadrado>
-        <Quadrado cor="blue"></Quadrado>
-        <Quadrado cor="yellow"></Quadrado>
         <Quadrado cor="red"></Quadrado>
         <Quadrado cor="green"></Quadrado>
         <Quadrado cor="blue"></Quadrado>
